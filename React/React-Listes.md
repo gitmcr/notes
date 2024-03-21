@@ -4,7 +4,7 @@
 
 ## Listes
 
-Pour afficher des listes, on utilisera principalement la méthode map().
+Pour afficher des listes, on utilisera principalement la méthode `map()`.
 
 Si l'on part d'un tableau de produits :
 
@@ -16,7 +16,7 @@ const products = [
 ];
 ```
 
-Dans un composant, on utilisera la méthode map() pour transformer ce tableau de produits en tableau d'élément :
+Dans un composant, on utilisera la méthode `map()` pour **transformer** ce tableau de produits en tableau d'élément :
 
 ```jsx
 const listItems = products.map((product) => (
@@ -26,9 +26,9 @@ const listItems = products.map((product) => (
 return <ul>{listItems}</ul>;
 ```
 
-Remarquez que li a un attribut key, pour chaque élément d'une liste, vous devez lui passer un identifiant unique qui proviendra généralement de vos données ou de votre base de données.
+Remarquez que `<li>` a un attribut `key`, pour chaque élément d'une liste, vous devez lui passer un **identifiant unique** qui proviendra généralement de vos données ou de votre base de données.
 
-React utilise cette key pour comprendre la nature de vos changements apportés.
+React utilise cette `key` pour comprendre la nature de vos changements apportés.
 
 <br>
 
@@ -36,7 +36,7 @@ React utilise cette key pour comprendre la nature de vos changements apportés.
 
 ### Filtrage
 
-Pour filtrer des tableaux d'élements, on utilisera la méthode filter() :
+Pour **filtrer** des tableaux d'élements, on utilisera la méthode `filter()` :
 
 ```jsx
 const people = [
@@ -60,7 +60,7 @@ const people = [
 const filterAge = people.filter((person) => person.age === 24);
 ```
 
-Puis utiliser la méthode map() sur cette variable :
+Puis utiliser la méthode `map()` sur cette variable :
 
 ```jsx
 const listPeople = filterAge.map((person) => (

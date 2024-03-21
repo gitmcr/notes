@@ -4,7 +4,7 @@
 
 ## JSX
 
-Le JSX est plus exigeant que le HTML, il faut impérativement fermer toutes les balises déclarées, même les auto-fermantes :
+Le JSX est plus exigeant que le HTML, il faut impérativement **fermer toutes les balises** déclarées, même les auto-fermantes :
 
 ```html
 <br />
@@ -14,7 +14,7 @@ Le JSX est plus exigeant que le HTML, il faut impérativement fermer toutes les 
 <br />
 ```
 
-Par ailleurs, un composant ne peut renvoyer qu'une seule balise parente JSX (qui peut en enrober une multitude) :
+Par ailleurs, un composant ne peut **renvoyer qu'une seule balise** parente JSX (qui peut en enrober une multitude) :
 
 ```jsx
 <div>
@@ -23,7 +23,7 @@ Par ailleurs, un composant ne peut renvoyer qu'une seule balise parente JSX (qui
 </div>
 ```
 
-Ou un Fragment React qui sera invisible dans le code source de la page :
+Ou un _Fragment React_ qui sera **invisible** dans le code source de la page :
 
 ```jsx
 <>
@@ -38,7 +38,7 @@ Ou un Fragment React qui sera invisible dans le code source de la page :
 
 ### Attributs
 
-Le JSX provoque aussi des changements nominatifs d'attributs comme pour "class" dans HTML ou encore le "for" HTML :
+Le JSX provoque aussi des changements nominatifs d'attributs comme pour `class` dans HTML ou encore le `for` HTML :
 
 ```jsx
 <div class="classe"></div>
@@ -56,7 +56,7 @@ Le JSX provoque aussi des changements nominatifs d'attributs comme pour "class" 
 <label htmlFor="label">Label</label>
 ```
 
-On convertis donc en camelCase comme pour du JavaScript.
+On convertis donc en **camelCase** comme pour du JavaScript.
 
 <br>
 
@@ -64,7 +64,7 @@ On convertis donc en camelCase comme pour du JavaScript.
 
 ### Ajouter du JavaScript
 
-Il est possible d'entrer en mode JavaScript dans le balisage en utilisant les accolades { } afin d'injecter une variable ou des expressions :
+Il est possible d'entrer en mode JavaScript dans le balisage en utilisant les accolades `{ }` afin d'injecter une variable ou des expressions :
 
 ```jsx
 function App() {
@@ -72,7 +72,7 @@ function App() {
 }
 ```
 
-Tout comme il est aussi possible d'ajouter du JavaScript au sein d'attributs comme pour le src d'une image :
+Tout comme il est aussi possible d'ajouter du JavaScript au sein d'attributs comme pour le `src` d'une image :
 
 ```jsx
 <img className="avatar" src="{user.imageUrl}" />
@@ -84,7 +84,7 @@ Tout comme il est aussi possible d'ajouter du JavaScript au sein d'attributs com
 
 ### Ajouter du style
 
-Pour définir du style en ligne dans le JSX, il faut passer en mode JavaScript ainsi qu'un littéral objet donc deux paires d'accolades {{ }} :
+Pour définir du style en ligne dans le JSX, il faut passer en mode JavaScript ainsi qu'un littéral objet donc deux paires d'accolades `{{ }}` :
 
 ```jsx
 <img

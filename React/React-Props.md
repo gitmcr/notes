@@ -4,15 +4,15 @@
 
 ## Props
 
-Lorsqu'on passe une prop, il est possible de lui assigner une valeur par défaut lorsque le composant parent n'en fournit pas :
+Lorsqu'on passe une prop, il est possible de lui assigner une **valeur par défaut** lorsque le composant parent n'en fournit pas :
 
 ```jsx
 function Avatar({ name, age = 24 }) {}
 ```
 
-Dorénavant, si Avatar est utilisé sans la prop age, la valeur par défaut sera définie à 24.
+Dorénavant, si `Avatar` est utilisé sans la prop `age`, la valeur par défaut sera définie à `24`.
 
-Si vous passez {age = 30}, la valeur par défaut ne sera pas utilisée.
+Si vous passez `{age = 30}`, la valeur par défaut **ne sera pas utilisée**.
 
 <br>
 
@@ -30,7 +30,7 @@ function Profile({ person, size, isColor, border }) {
 }
 ```
 
-Il peut arriver que passer des props soit répétitif, dans un tel cas, il est possible d'utiliser la syntaxe spread sous cette forme :
+Il peut arriver que passer des props soit **répétitif**, dans un tel cas, il est possible d'utiliser la syntaxe `spread` sous cette forme :
 
 ```jsx
 function Profile(props) {
@@ -48,6 +48,6 @@ function Profile(props) {
 
 ### Immuabilité
 
-Les props sont immuables, lorsqu'un composant doit modifier ses props, il demande à son composant parent de lui passer des props différentes.
+Les props sont **immuables**, lorsqu'un composant doit modifier ses props, il _demande_ à son composant parent de lui passer des props différentes.
 
-Il ne faut pas essayer de changer les props. Lorsque vous avez besoin de réagir à une telle interaction, vous devrez mettre à jour l'état.
+Il **ne faut pas** essayer de changer les props. Lorsque vous avez besoin de réagir à une telle interaction, vous devrez **mettre à jour l'état**.

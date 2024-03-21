@@ -10,9 +10,9 @@
 
 <br>
 
-React crée un arbre de l'UI à partir de vos composants.
+React crée un **arbre** de l'UI à partir de vos composants.
 
-Avec un rendu conditionnel, l'arbre peut différer entre les composants :
+Avec un rendu conditionnel, **l'arbre peut différer** entre les composants :
 
 ```jsx
 function Generateur() {
