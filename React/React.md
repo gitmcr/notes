@@ -4,7 +4,7 @@
 
 ## Roadmap
 
-| id  | catégorie | nom                                                                                                                        |
+| ID  | Catégorie | Nom                                                                                                                        |
 | --- | --------- | -------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Concepts  | [Composant](https://github.com/gitmcr/notes/blob/main/React/Concepts/React-Composant.md)                                   |
 | 2   | Concepts  | [JSX](https://github.com/gitmcr/notes/blob/main/React/Concepts/React-JSX.md)                                               |
