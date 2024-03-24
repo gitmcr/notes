@@ -86,7 +86,7 @@ import "./index.css";
 
 // Ici, on importe nos dépendances et notre variable 'router'
 import { RouterProvider } from "react-router-dom";
-import { router } from "./router";
+import { router } from "./Router";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
