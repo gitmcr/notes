@@ -17,7 +17,7 @@
 ### 2. Créer un fichier dans votre projet React avec le nom que vous souhaitez, ici je l'appelle `Router.jsx` et importer React Router :
 
 ```jsx
-import { CreateBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router";
 ```
 
 <br>
